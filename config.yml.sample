@@ -12,3 +12,11 @@ correlation:
   malicious_domains_file: ./misp_domains.txt
   malicious_ips_file: ./misp_ips.txt
   last_correlation_pointer_file: ./correlation.last
+
+alerts:
+  email:
+    from: "pdnssoc-dev@domain.tld"
+    to: "pdnssoc-dev@domain.tld"
+    subject: "[pDNSSOC] Community XYZ alert"
+    server: "localhost"
+    port: 25
